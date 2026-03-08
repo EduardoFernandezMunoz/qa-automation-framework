@@ -1,0 +1,51 @@
+{
+  "valid_data": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "product_name": "Sauce Labs Backpack",
+      "first_name": "Eduardo",
+      "last_name": "Fernández Muñoz",
+      "zip_code": "60326"
+    },
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "product_name": "Sauce Labs Onesie",
+      "first_name": "Sara",
+      "last_name": "Ruiz Romero",
+      "zip_code": "12345"
+    }
+ ],
+
+  "invalid_data": [
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "product_name": "Sauce Labs Bike Light",
+      "first_name": "Marina",
+      "last_name": "Muñoz Bertrán",
+      "zip_code": "60326"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "product_name": "Test.allTheThings() T-Shirt (Red)",
+      "first_name": "Pedro",
+      "last_name": "Pérez Pinto",
+      "zip_code": "60326"
+    }
+  ],
+   "api_posts": [
+    {
+      "title": "First API test post",
+      "body": "Testing POST endpoint",
+      "userId": 1
+    },
+    {
+      "title": "Second API test post",
+      "body": "Automation framework test",
+      "userId": 2
+    }
+  ]
+}
